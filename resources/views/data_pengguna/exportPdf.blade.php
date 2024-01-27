@@ -5,7 +5,7 @@ $Tanggal = new \App\Helpers\Tanggal; //panggil no static function
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Laporan Data Barang</title>
+	<title>Laporan Data Pengguna</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
@@ -48,7 +48,7 @@ $Tanggal = new \App\Helpers\Tanggal; //panggil no static function
 				<td>{{$dt->name}}</td>
 				<td>{{$dt->email}}</td>
 				<td>{{$dt->namerole}}</td>
-				<td>{{isset($dt->created_at)?$Tanggal->inddatetime($dt->created_at??'',' '):''}}</td>
+				{{-- <td>{{isset($dt->created_at)?$Tanggal->inddatetime($dt->created_at??'',' '):''}}</td> --}}
 			</tr>
 		@endforeach
 		@endif

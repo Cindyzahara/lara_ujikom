@@ -10,7 +10,7 @@
     <div class="sticky">
         <aside class="app-sidebar sidebar-scroll">
             <div class="main-sidebar-header active">
-            <a class="desktop-logo logo-light active" href="/"><img src="{{asset('')}}back/img/brand/logo.png" class="main-logo" alt="logo"></a>
+            <a class="desktop-logo logo-light active" href="/"><img src="{{asset('')}}back/img/brand/logi.jpg" class="main-logo" alt="logo" width="40%" height="20%" ></a>
                 <a class="desktop-logo logo-dark active" href="/"><img src="{{asset('')}}back/img/brand/logo-white.png" class="main-logo" alt="logo"></a>
                 <a class="logo-icon mobile-logo icon-light active" href="/"><img src="{{asset('')}}back/img/brand/favicon.png" alt="logo"></a>
                 <a class="logo-icon mobile-logo icon-dark active" href="/"><img src="{{asset('')}}back/img/brand/favicon-white.png" alt="logo"></a>
@@ -20,7 +20,7 @@
                     <div class="app-sidebar__user">
                         <div class="dropdown user-pro-body text-center">
                             <div class="user-pic">
-                                <img src="{{asset('')}}back/img/faces/6.jpg" alt="user-img" class="rounded-circle mCS_img_loaded">
+                                <img src="{{asset('')}}back/img/cindy2.jpg" alt="user-img" class="rounded-circle mCS_img_loaded">
                             </div>
                             <div class="user-info">
                                 <h6 class=" mb-0 text-dark">@auth {{ auth()->user()->name }} @endauth</h6>
